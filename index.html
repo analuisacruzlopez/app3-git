@@ -1,0 +1,238 @@
+<!doctype html>
+<html>
+ <head>
+ <!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+ <title> Dia Mundial De La Bicicleta </title>
+
+<!--grupo CSS-->
+ <link rel="stylesheet" href="css/tema-app3.min.css"/>
+ <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+ <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+
+ <!--grupo JavaScript-->
+ <script src ="js/jquery-1.11.2.min.js"></script>
+ <script src ="js/jquery.mobile-1.4.5.min.js"></script>
+ <!--  <script src="js/acciones.js"></script -->
+ 	<script src="phonegap.js"></script>
+ 	<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+    </script>
+ </head>
+
+<body onLoad="MM_preloadImages('imagenes/evolucion2.jpg','imagenes/transporte2.jpg')">
+
+ 	<div data-role="page" id="Principal" data-theme="a">
+ 		<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+ 			<h1>Dia Mundial De La Bicicleta</h1>
+ 		</div>
+ 		<div data-role="main" class="ui-content">
+ 			<div data-role="collapsible" data-content-theme="false">
+ 				<h1>Banner Conmemorativo</h1>
+ 				<div>
+ 					<p> Dia Mundial De La Bicicleta</p>
+ 					<br>
+ 				</div>
+ 				<div>
+ 					<img src="imagenes/bicicleta1.jpg" width="50%" height="50%">
+ 				</div>
+ 			</div>
+ 		</div>
+ 		<div>
+ 			<ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+            <li class="ui-first-child ui-last-child">
+            <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+            <h2>Historia De La Bicicleta </h2>
+            <p> Se muestra la biografia </p>
+            </a>
+           </li>
+           <li class="ui-first-child ui-last-child">
+            <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+            <h2> Utilizacion Como Medio De Transporte </h2>
+            <p> Se muestran los beneficios</p>
+           </a>
+          </li>
+          <li class="ui-first-child ui-last-child">
+           <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+           <h2> Tipos de Bicicletas </h2>
+           <p> Se Muestran los Tipos </p>
+          </a>
+         </li>
+         <li class=" ui-first-child ui-last-child">
+          <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+          <h2> 5 Marcas Importantes De Bicicletas </h2>
+          <p> Muestra las 5 bicicletas mas importantes </p>
+          </a>
+         </li>
+         <li class="ui-first-child ui-last-child">
+          <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+          <h2> Por Que Se Celebra El Dia Mundial De La Bicicleta</h2>
+          <p> Muestra su descripcion</p>
+         </a>
+        </li>
+        </ul>
+       </div>
+       <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+       <div>
+        <img src="imagenes/Iconshock-Global-Warming-Bicycle.ico" width="46" height="46">
+        </div>
+        <div>
+          <h4> Aplicacion Tres </h4>
+          <h4> Ana Luisa Cruz Lopez </h4>
+         </div>
+        </div>
+        </div>
+        <div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+          <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+          <h1> Historia </h1>
+         </div>
+         <div data-role="content" align="center">
+           <div>
+            <h2>Es un vehículo de transporte personal de propulsión humana. Es impulsada por el propio viajero, que acciona el vehículo con el esfuerzo muscular de las piernas, en particular mediante pedales o manivelas.3​ Sus componentes básicos son dos ruedas,3​ generalmente de igual diámetro y dispuestas en línea, un sistema de transmisión de pedales, un cuadro que le da la estructura e integra los componentes, un manillar para controlar la dirección y un sillín para sentarse.<a href="https://es.wikipedia.org/wiki/Bicicleta" target="_self"> ver mas informacion... </a> </h2> 
+            
+            <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image28','','imagenes/evolucion2.jpg',1)"><img src="imagenes/evolucion.jpg" width="480" height="360" id="Image28"></a>
+           </div>
+          </div>
+          <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+          <div>
+           <img src="imagenes/Iconshock-Global-Warming-Bicycle.ico" width="46" height="46">
+          </div>
+            <h4> Aplicacion Tres, ALCL </h4>
+           </div>
+          </div>
+          
+          
+          <div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+           <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+           <h1> Utilizacion como medio de transporte</h1>
+          </div>
+          <div data-role="content" align="center">
+           <div>
+            <h2> Es un medio de transporte sano, ecológico, sostenible y económico, válido para trasladarse tanto por ciudad como por zonas rurales. Su uso está generalizado en la mayor parte de Europa, y llega a ser, en países como Suiza, Alemania, Países Bajos, Bélgica, algunas zonas de Polonia y los países escandinavos, uno de los principales medios de transporte. En Asia, especialmente en China y la India, es el principal medio de transporte. </h2></div>
+            <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image27','','imagenes/transporte2.jpg',1)"><img src="imagenes/transporte.jpg" width="275" height="183" id="Image27"></a> </div>
+          <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+          <div>
+            <img src="imagenes/Iconshock-Global-Warming-Bicycle.ico" width="46" height="46">
+            </div>
+             <h4> Aplicacion Tres, ALCL </h4>
+             </div>
+              </div>
+              
+              
+              <div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+               <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+               <h1> Tipos De bicicletas </h1>
+              </div>
+              <div data-role="content" align="center">
+               <div>
+                 <h2> *La bicicleta de montaña,
+                      *La bicicleta de carreras,
+                      *La bicicleta de turismo,
+                      *La bicicleta plegable,
+                      *La bicicleta Tándem
+                  </h2>
+                  
+                <img src="imagenes/tipos.jpg.png" width="50%" height="50%">
+                  </div>
+                 </div>
+                 <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+                 <div>
+                   <img src="imagenes/Iconshock-Global-Warming-Bicycle.ico" width="46" height="46">
+                   </div>
+                   <h4> Aplicacion Tres, ALCL </h4>
+                   </div>
+                   </div>
+                 
+                 
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+                  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+                  <h1> Marcas Importantes </h1>
+                 </div>
+                 <div data-role="content" align="center">
+                  <div>
+                   <h2> Specialized, Trek, Merida, Scott, Giant, Cannondale  </h2>
+              <div>
+              <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/cannondale.jpg" alt="Cannondale" title="Cannondale" id="wows1_0"/></li>
+		<li><img src="data1/images/evolucion.jpg" alt="evolucion" title="evolucion" id="wows1_1"/></li>
+		<li><img src="data1/images/giant.jpg" alt="Giant" title="Giant" id="wows1_2"/></li>
+		<li><img src="data1/images/merida.jpg" alt="Merida" title="Merida" id="wows1_3"/></li>
+		<li><img src="data1/images/scott.jpg" alt="Scott" title="Scott" id="wows1_4"/></li>
+		<li><img src="data1/images/specialized.jpg" alt="Specialized" title="Specialized" id="wows1_5"/></li>
+		<li><a href="http://wowslider.com"><img src="data1/images/transporte.jpg" alt="bootstrap carousel" title="transporte" id="wows1_6"/></a></li>
+		<li><img src="data1/images/trek.jpg" alt="Trek" title="Trek" id="wows1_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="Cannondale"><span><img src="data1/tooltips/cannondale.jpg" alt="Cannondale"/>1</span></a>
+		<a href="#" title="evolucion"><span><img src="data1/tooltips/evolucion.jpg" alt="evolucion"/>2</span></a>
+		<a href="#" title="Giant"><span><img src="data1/tooltips/giant.jpg" alt="Giant"/>3</span></a>
+		<a href="#" title="Merida"><span><img src="data1/tooltips/merida.jpg" alt="Merida"/>4</span></a>
+		<a href="#" title="Scott"><span><img src="data1/tooltips/scott.jpg" alt="Scott"/>5</span></a>
+		<a href="#" title="Specialized"><span><img src="data1/tooltips/specialized.jpg" alt="Specialized"/>6</span></a>
+		<a href="#" title="transporte"><span><img src="data1/tooltips/transporte.jpg" alt="transporte"/>7</span></a>
+		<a href="#" title="Trek"><span><img src="data1/tooltips/trek.jpg" alt="Trek"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">slider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+</div>
+                   </div>
+                  </div>
+                 <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+                 <div>
+                  <img src="imagenes/Iconshock-Global-Warming-Bicycle.ico" width="46" height="46">
+                  </div>
+                  <h4> Aplicacion Tres, ALCL </h4>
+                 </div>
+                 </div>
+                 
+                 
+                 <div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+                  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+                  <h1> Celebracion </h1>
+                 </div>
+                 <div data-role="content" align="center">
+                  <div>
+                   <h2>Cada 19 de abril se celebra el Día Mundial de la Bicicleta, debido a un científico distraído y a una sustancia que hoy se califica como una "droga"
+Esta fecha se conmemora por Albert Hofmann, quien fue un químico suizo mundialmente famoso por ser considerado como el "padre del LSD". Un día como hoy el científico decide experimentar con la sustancia en sí mismo e ingiere una dosis de 250 microgramos. En menos de una hora, Hofmann reportó severos cambios en sus percepción, por lo que tuvo que ser acompañado por su asistente de regreso a su casa a bordo de una bicicleta. </h2>
+                   <img src="imagenes/bici5.jpg" width="50%" height="50%">
+                   </div>
+                   <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+                   <div>
+                    <img src="imagenes/Iconshock-Global-Warming-Bicycle.ico" width="46" height="46">
+                    </div>
+                    <h4> Aplicacion Tres, ALCL </h4>
+                   </div>
+                 </div>
+               </body>
+             </html>
+        
+
+ 
