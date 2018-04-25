@@ -25,7 +25,7 @@ Ana Luisa Cruz Lopez
 
 <!--Plugins -->
 <!--Para accesar a paginas en internet-->
- <allow-inter href="https://*/*"/>
+ <allow-intent href="https://*/*"/>
  <acces origin="https://*/*"/>
  <allow-intent href="http://*/*"/>
  <acces origin="http://*/*"/>
